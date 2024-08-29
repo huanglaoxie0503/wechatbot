@@ -1,0 +1,20 @@
+# Python files
+*.py text=auto
+
+# Ignore compiled Python files
+*.pyc binary
+
+# HTML files use union merge strategy
+*.html merge=union
+
+# CSV files use UTF-8 encoding
+*.csv encoding=utf-8
+
+# Ignore logs directory and contents
+/logs/
+
+# Specify linguist language for Python files
+*.py linguist-language=Python
+
+# Use custom merge strategy for VERSION file
+VERSION merge=ours
